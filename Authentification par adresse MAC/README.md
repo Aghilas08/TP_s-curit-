@@ -1,5 +1,5 @@
-# Authentification par adresse MAC
-* **Principe :** chaque carte réseau possède **une adresse MAC** unique. Le commutateur ou le serveur d’authentification compare l’adresse MAC de l’appareil à une liste blanche (**MAC Filtering**).
+# Sécurité des ports
+* **Principe :** chaque carte réseau possède **une adresse MAC** unique. Le commutateur compare l’adresse MAC de l’appareil à une liste blanche (**MAC Filtering**).
 * **Avantage :** simple à mettre en œuvre.
 
 
@@ -84,4 +84,5 @@ SW1(config-if)switchport port-security violation shutdown ## le port se desactiv
 
 * **Notification sur le switch :**
 ![](Capture%20d’écran%20(1223).png)
+
 ![](Capture%20d’écran%20(1224).png)
